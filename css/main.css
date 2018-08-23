@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+   
+
+/* Header Navigation */
+nav{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: #A1CCB6; 
+}
+
+.main-nav{
+    display: flex;
+    flex-direction: row;   
+}
+.main-nav li:first-child  {
+    margin-right: auto; 
+}
+
+.main-nav a{
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+} 
+
+a:hover{
+    color:#000;
+}
+
+/* Sidebar Section */
+.row{
+    display: flex;
+    position: relative;
+}
+
+.row .sidebar{
+   width: 30%;
+   height: 800px;
+   background: #EF776E;
+}
+
+.row .sidebar-image{
+    width: 30%;
+    max-width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+  
+ }
+ 
+
+/* main content Section */
+.row .main-content{
+    width:70%;
+    height: 800px;
+    background: #F9CC6E;
+    padding: 1em;
+    text-align: center;
+    
+ }
+
+  .row .main-content .content{
+    width: 70%;
+    margin: 0 auto;
+    
+ } 
+
+ .row .main-content .profile-img img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 5px solid #fff;
+     margin-top:2em; 
+   
+ }
+
+ .row .main-content h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 1em;
+    padding-bottom: .3em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+
+
+ }
+ .row .main-content h3{
+     font-size: 1rem;
+     font-weight: 600;
+     color: #000;
+ }
+
+ .row .main-content p{
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    padding: 10px;
+    line-height: 25px;  
+}
+
+.row .main-content .fab{
+    color: #fff;
+    font-size: 2rem;
+    padding: .3em;
+    border: 1px solid #fff;
+}
+.row .main-content .fab:hover{
+    border: 1px double #EF776E;
+}
+
+
+ /* Footer Section */
+ footer{
+     background: #A1CCB6;
+     color: #fff;
+     text-align: center;
+     padding:10px ;
+
+ }
+
+
