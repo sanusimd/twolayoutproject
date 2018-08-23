@@ -1,4 +1,4 @@
-# twolayoutproject
+# Two Layout Project
 Codingphase project 
 
 # Two Layout Project CodingPhase
